@@ -1,6 +1,6 @@
-basic.forever(function () {
-    robotbit.MatrixDraw(1, 2)
-    robotbit.MatrixRefresh()
-    robotbit.MatrixClear()
-    robotbit.MatrixDraw(3, 4)
-})
+robotbit.rgb().showColor(neopixel.colors(NeoPixelColors.Red))
+basic.pause(1000)
+robotbit.rgb().showColor(neopixel.colors(NeoPixelColors.Yellow))
+basic.pause(1000)
+robotbit.rgb().showColor(neopixel.colors(NeoPixelColors.Green))
+basic.pause(1000)
